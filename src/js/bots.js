@@ -11,8 +11,8 @@ const endGamePieces = [];
 
 const loader = new GLTFLoader();
 
-// Load Monsoon bot
-loader.load("./src/monsoon/monsoon.gltf", (gltf) => {
+// Load Monsoon bot - assets in public folder
+loader.load("/monsoon/monsoon.gltf", (gltf) => {
   const root1 = gltf.scene;
   root1.position.set(0, 3, -200);
   monsoonBot = root1;
@@ -46,8 +46,8 @@ loader.load("./src/monsoon/monsoon.gltf", (gltf) => {
   (err) => { console.log(err); }
 );
 
-// Load End Game bot
-loader.load("./src/endgame/endgame.gltf", (gltf) => {
+// Load End Game bot - assets in public folder
+loader.load("/endgame/endgame.gltf", (gltf) => {
   const root = gltf.scene;
   root.position.set(0, 1, 200);
   root.rotation.set(0, Math.PI, 0);

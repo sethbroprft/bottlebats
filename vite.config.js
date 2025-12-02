@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/bottlebats/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    assetsInlineLimit: 0
   }
 });

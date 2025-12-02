@@ -11204,13 +11204,13 @@
       "name": "Black_metal_material",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.0027398011000000001,
-          0.0027398011000000001,
-          0.0027398011000000001,
+          0.003,
+          0.005,
+          0.025,
           1
         ],
-        "metallicFactor": 1,
-        "roughnessFactor": 0.25
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.45
       }
     },
     {
@@ -11299,17 +11299,17 @@
       "name": "Material_117",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1,
-          1,
-          1,
+          0.003,
+          0.005,
+          0.025,
           1
         ],
         "baseColorTexture": {
           "index": 0,
           "texCoord": 0
         },
-        "metallicFactor": 1,
-        "roughnessFactor": 0.15000000000000002
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.45
       }
     },
     {

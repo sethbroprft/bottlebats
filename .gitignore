@@ -1,3 +1,15 @@
 node_modules/
 bower_components/
 *.log
+
+# macOS
+.DS_Store
+.DS_Store?
+
+# Blender files
+*.blend
+*.blend1
+*.blend2
+
+# VSCode
+.vscode/

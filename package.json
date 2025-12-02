@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/getsetbro/bottlebats/issues"
   },
-  "homepage": "https://github.com/getsetbro/bottlebats#readme"
+  "homepage": "https://github.com/getsetbro/bottlebats#readme",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.181.2"
+  }
 }

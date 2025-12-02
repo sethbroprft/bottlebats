@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#fightButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 60px;
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff0000, #ff6600);
+  color: white;
+  border: 4px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+#fightButton:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 12px 30px rgba(255, 0, 0, 0.6);
+}
+
+#fightButton.hidden {
+  display: none;
+}
+
+#resetButton {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding: 15px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #00aaff, #0066ff);
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+#resetButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 102, 255, 0.6);
+}

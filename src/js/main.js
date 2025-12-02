@@ -1,8 +1,7 @@
-import { renderer, camera, controls } from "./setup.js";
+import { startFight, updateBotMovement, updateExplosion, updateWeapons } from "./animation.js";
+import { endGameBot, endGamePieces, endGameWeapons, monsoonBot, monsoonPieces, monsoonWeapons } from "./bots.js";
 import "./environment.js";
-import { monsoonWeapons, endGameWeapons, monsoonBot, endGameBot, monsoonPieces, endGamePieces } from "./bots.js";
-import { updateBotMovement, updateWeapons, updateExplosion, startFight } from "./animation.js";
-import { scene } from "./setup.js";
+import { camera, controls, renderer, scene } from "./setup.js";
 
 // UI Controls
 const fightButton = document.getElementById('fightButton');

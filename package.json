@@ -24,6 +24,7 @@
     "three": "^0.181.2"
   },
   "devDependencies": {
+    "terser": "^5.44.1",
     "vite": "^7.2.6"
   }
 }
